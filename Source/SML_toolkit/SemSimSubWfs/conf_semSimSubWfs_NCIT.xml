@@ -1,0 +1,113 @@
+<sglib>
+<!-- Add your configuration here (this is a comment line) -->
+
+<variables>
+  <var key="HOME"        value="/home/beatriz/CBGP-PostDoc/ProjectWorkflows/SML_toolkit" />
+<!--  <var key="HOME"        value=".." /> -->
+  <var key="DATA"   value="{HOME}/SemSimSubWfs/data" />
+  <var key="ONT" value="{HOME}/SemSimSubWfs/ontologies" />
+  <var key="RESULTS" value="{HOME}/SemSimSubWfs/results" />
+
+  <!-- The Graph Knowledge base -->
+  <var key   = "URI_GRAPH"       value = "http://urigraph/" /> 
+<!--  <var key   = "URI_GRAPH"       value = "http://edamontology.org/" /> -->
+ 
+  
+</variables>
+
+<!-- Namespace prefix definition for the parsers e.g. EDAM_data:0005 will be loaded as http://edamontology.org/data_0005 -->
+<!--
+<namespaces>
+  <nm prefix="has" ref="http://edamontology.org/has_topic" />
+  <nm prefix="EDAM" ref="http://edamontology.org" />
+  <nm prefix="data" ref="http://edamontology.org/data_" />
+  <nm prefix="format" ref="http://edamontology.org/format_" />
+  <nm prefix="operation" ref="http://edamontology.org/operation_" />
+  <nm prefix="topic" ref="http://edamontology.org/topic_" />
+</namespaces>
+-->
+
+<graphs>
+  <graph uri="{URI_GRAPH}" >
+    <data>
+      <file format="rdf_xml"  path="{ONT}/NCIT_14.05d.owl"   />
+<!--       <file format = "rdf_xml"    path  = "{DATA}/EDAM_1.3.owl" />  -->
+<!-- Valid formats: [OBO, GAF2, RDF_XML, NTRIPLES, WORDNET_DATA, MESH_XML, SNOMED_CT_RF2, CSV, SLIB, TURTLE, TSV_ANNOT] -->
+      <file format="TSV_ANNOT" header="false" path="{DATA}/instances_annot_NCIT.tsv" prefixObject="http://graph/subwf/"/>
+      <actions>
+        <action type="TRANSITIVE_REDUCTION" targets="RDFS.SUBCLASSOF" />
+        <action type="PREDICATE_SUBSTITUTE" old_uri="http://purl.obolibrary.org/obo/part_of" new_uri="RDFS.SUBCLASSOF"/>
+        <action type="REROOTING"  />
+      </actions >
+<!--
+      <actions>	
+        <action type="REROOTING" root_uri="__FICTIVE__" />
+	<action type="TRANSITIVE_REDUCTION" targets="RDFS.SUBCLASSOF" />
+	<action type="PREDICATE_SUBSTITUTE" old_uri="http://purl.obolibrary.org/obo/part_of" new_uri="RDFS.SUBCLASSOF"/> 
+      </actions>
+--> 
+    </data>
+  </graph>
+</graphs>
+
+<!-- IC mesuare configuration -->
+<sml module="sm" graph="{URI_GRAPH}">
+  <!-- Information content metrics --> 
+  <ics>
+    <ic id="iciZhou" flag="ICI_ZHOU_2008" />
+    <ic id="iciSanchez" flag="ICI_SANCHEZ_2011" />
+  </ics>
+<!--
+    <ic id="iciResnik" flag="ICI_RESNIK_1995" />
+-->
+
+
+<!-- Pairwise measure(s) configuration -->
+  <measures type = "pairwise">
+    <measure   id   = "Lin" 
+	       flag = "SIM_PAIRWISE_DAG_NODE_LIN_1998"
+	       ic   = "iciZhou" />
+  </measures>
+
+<!-- IT WORKS in a reasonable way:
+  <measures type = "pairwise">
+    <measure   id   = "Schlicker" 
+	       flag = "SIM_PAIRWISE_DAG_NODE_SCHLICKER_2006"
+	       ic   = "iciZhou"
+	       ic_prob   = "iciResnik" />
+  </measures>
+  <measures type = "pairwise">
+    <measure   id   = "Lin" 
+	       flag = "SIM_PAIRWISE_DAG_NODE_LIN_1998"
+	       ic   = "iciZhou" />
+  </measures>
+-->
+
+<!-- Groupwise measure configuration -->
+ <measures type = "groupwise">
+    <measure
+        id   = "BMA"    
+        flag = "SIM_GROUPWISE_BMA" 
+        pairwise_measure = "Lin" /> 
+</measures>
+
+
+
+
+  <queries
+      id      = "query"
+      type    = "oTOo"
+      file    = "{DATA}/NCIT_queries.csv"
+      output  = "{RESULTS}/NCIT_results.csv"
+      notFound = "SET=0"
+
+    />
+<!--  
+      uri_prefix = "http://purl.obolibrary.org/obo/"
+      noAnnots = "SET=-1"
+ -->
+ 
+
+</sml>
+
+</sglib>
