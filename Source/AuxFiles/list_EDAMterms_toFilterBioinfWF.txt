@@ -1,0 +1,190 @@
+0000003	topic	Topic
+0000084	topic	Phylogenetics
+0000193	topic	Phylogenetic clocks, dating and stratigraphy
+0000191	topic	Phylogeny reconstruction
+0000194	topic	Phylogenomics
+0000586	topic	Proteins
+0000128	topic	Protein interactions
+0000147	topic	Protein-protein interactions
+0000148	topic	Protein-ligand interactions
+0000149	topic	Protein-nucleic acid interactions
+0000639	topic	Protein sequences
+0000644	topic	Proteome
+0000741	topic	Protein sequence alignment
+0000748	topic	Protein functional sites
+0000123	topic	Protein physicochemistry
+0000137	topic	Protein hydropathy
+0000130	topic	Protein folding, stability and design
+0000150	topic	Protein rational design
+0000140	topic	Protein targeting and localization
+0000613	topic	Peptides and amino acids
+0000767	topic	Peptide identification and proteolysis
+0002830	topic	Immune-related proteins and peptides
+0000635	topic	Specific protein
+0002232	topic	Lipoproteins
+0000821	topic	Enzymes
+0000100	topic	Nucleic acid restriction
+0000811	topic	Transcription factor and binding site
+0000820	topic	Membrane protein
+0000601	topic	Protein modifications
+0000751	topic	Phosphorylation
+0001775	topic	Protein function
+0002276	topic	Protein function prediction
+0000595	topic	Protein classification
+0000736	topic	Protein domains
+0000724	topic	Protein families
+0002814	topic	Protein structure
+0000694	topic	Protein secondary structure
+0000144	topic	Protein residue interactions
+0000178	topic	Protein secondary structure prediction
+0000698	topic	Protein tertiary structure
+0000179	topic	Protein tertiary structure prediction
+0000146	topic	Protein surfaces
+0000169	topic	Tertiary structure comparison
+0000166	topic	Protein structural motifs
+0002826	topic	Protein structure alignment
+0000081	topic	Structure
+0000097	topic	Nucleic acid structure
+0000697	topic	RNA structure and alignment
+0000173	topic	Nucleic acid structure prediction
+0000152	topic	Carbohydrates
+0002226	topic	Structure determination
+0002828	topic	X-ray crystallography
+0000611	topic	Electron microscopy
+0000593	topic	NMR
+0000154	topic	Small molecules
+0002661	topic	Toxins and targets
+0000620	topic	Drugs and targets
+0000079	topic	Metabolites
+0000618	topic	Scents
+0000082	topic	Structure prediction
+0000172	topic	Protein structure prediction
+0000180	topic	Protein fold recognition
+0000174	topic	Ab initio structure prediction
+0002275	topic	Molecular modelling
+0000136	topic	Raw structural data analysis
+0000177	topic	Molecular docking
+0000176	topic	Molecular dynamics
+0000145	topic	Molecular flexibility and motion
+0000175	topic	Homology modelling
+0000184	topic	Threading
+0000153	topic	Lipids
+0001770	topic	Structure comparison
+0002844	topic	Structural clustering
+0000183	topic	Structure alignment
+0000167	topic	Structural (3D) profiles
+0000121	topic	Proteomics
+0000133	topic	Two-dimensional gel electrophoresis
+0000135	topic	Protein microarrays
+0000134	topic	Mass spectrometry
+0000102	topic	Sequencing and mapping
+0000196	topic	Sequence assembly
+0000195	topic	Polymerase chain reaction
+0000632	topic	Molecular probes or primers
+0000796	topic	Genetic mapping and linkage
+0002842	topic	High-throughput sequencing
+0000602	topic	Pathways, networks and models
+0000771	topic	Biological models
+0002846	topic	Gene regulatory networks
+0000754	topic	Signaling pathways
+0000753	topic	Metabolic pathways
+0000625	topic	Genotype and phenotype
+0000199	topic	Mutation and polymorphism
+0002277	topic	SNPs
+0000634	topic	Disease
+0002640	topic	Cancer
+0000803	topic	Human disease
+0000607	topic	Laboratory resources
+0000077	topic	Nucleic acids
+0000653	topic	RNA
+0000655	topic	mRNA, EST or cDNA
+0000114	topic	RNA splicing
+0000659	topic	Functional RNA
+0000660	topic	rRNA
+0000661	topic	miRNA
+0000662	topic	siRNA
+0000119	topic	piRNA
+0000663	topic	tRNA
+0000664	topic	snRNA
+0000665	topic	snoRNA
+0000654	topic	DNA
+0000666	topic	rDNA
+0002816	topic	Genes
+0000109	topic	Gene finding
+0000197	topic	Gene expression and regulation
+0000203	topic	Gene expression profiling
+0000110	topic	Transcription
+0000111	topic	Promoters
+0000108	topic	Translation
+0000623	topic	Gene family or system
+0000630	topic	Gene structure
+0000643	topic	Genomes
+0000624	topic	Chromosomes
+0000798	topic	Mobile genetic elements
+0000640	topic	Nucleic acid sequences
+0000740	topic	Nucleic acid sequence alignment
+0000107	topic	Codon usage
+0000747	topic	Nucleic acid functional sites
+0000094	topic	Nucleic acid physicochemistry
+0000104	topic	Nucleic acid denaturation
+0000722	topic	Nucleic acid classification
+0000621	topic	Organism
+0001811	topic	Prokaryote
+0000781	topic	Virus
+0000783	topic	Pathogen
+0002818	topic	Eukaryote
+0000782	topic	Fungal
+0002817	topic	Yeast
+0000780	topic	Plant
+0002819	topic	Invertebrate
+0000211	topic	Fly
+0000215	topic	Worm
+0002820	topic	Vertebrate
+0000210	topic	Fish
+0002815	topic	Human
+0000213	topic	Mouse or rat
+0002821	topic	Unicellular eukaryote
+0000091	topic	Data handling
+0000090	topic	Data retrieval
+0000769	topic	Workflows
+0000092	topic	Data rendering and visualisation
+0000770	topic	Data types and objects
+0000220	topic	Data file processing
+0002230	topic	Classification
+0000637	topic	Taxonomy
+0000164	topic	Sequence clustering
+0002841	topic	Informatics
+0002229	topic	Cell biology informatics
+0000616	topic	Organelles
+0000779	topic	Mitochondria
+0000617	topic	Ribosomes
+0000612	topic	Cell cycle and development
+0000608	topic	Cell lines and culture
+0000610	topic	Ecoinformatics
+0002258	topic	Chemoinformatics
+0000804	topic	Immunoinformatics
+0002840	topic	Toxicoinformatics
+0000202	topic	Pharmacoinformatics
+0000209	topic	Drug design
+0000208	topic	Pharmacogenomics
+0000080	topic	Sequence
+0000188	topic	Sequence profiles and HMMs
+0000159	topic	Sequence comparison
+0000182	topic	Sequence alignment
+0000189	topic	Structure-based sequence alignment
+0000158	topic	Sequence motifs
+0000160	topic	Sequence features
+0000600	topic	Functional sites
+0000157	topic	Sequence composition
+0000641	topic	Repeat sequence
+0000642	topic	Low complexity sequence
+0000088	topic	Literature and documentation
+0000218	topic	Text mining
+0002829	topic	Ontologies and nomenclature
+0002811	topic	Nomenclature
+0000089	topic	Ontologies
+0000219	topic	Annotation
+0000622	topic	Genomics
+0000797	topic	Comparative genomics
+0000200	topic	Microarrays
+0000206	topic	DNA microarrays
