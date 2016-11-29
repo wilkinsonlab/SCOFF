@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1405082854851" name="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl" uri="NCIT_14.05d.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1405082854851" name="http://ontology.neuinfo.org/NIF/NIFSTD_2.9.6_Merged.owl" uri="NIFSTD_2.9.6_merged.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1405082854851" name="http://purl.obolibrary.org/obo/" uri="IAO_1.1.1.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1405082854851" name="http://purl.obolibrary.org/obo/obi.owl" uri="OBI_2013.10.25.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1405082854851" name="http://purl.obolibrary.org/obo/obi/webService.owl" uri="OBIWS_1.1.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1405082854851" name="http://semanticscience.org/ontology/sio.owl" uri="SIO_1.0.8.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1405082854851" name="http://www.ebi.ac.uk/efo" uri="EFO_2.48.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1405082854851" name="http://www.ebi.ac.uk/swo/" uri="SWO_1.1.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1405082854851" name="http://www.semanticweb.org/beatriz/ontologies/2014/1/BRO_3.2.1_merged" uri="BRO_3.2.1_merged.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1405082854851" name="http://www.semanticweb.org/beatriz/ontologies/2014/1/untitled-ontology-2" uri="BAO_2_merged.owl"/>
+    </group>
+</catalog>
