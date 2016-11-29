@@ -1,0 +1,966 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prop: <http://rdf.biosemantics.org/emco/properties/> .
+@prefix vocab: <http://rdf.biosemantics.org/emco/v1.5/vocabularies/> .
+@prefix edam: <http://edamontology.org/> .
+@prefix additional: <http://additionalTerms/> .
+
+prop:prefLabel_CI rdfs:subPropertyOf skos:prefLabel .
+prop:prefLabel_NO rdfs:subPropertyOf skos:prefLabel .
+prop:prefLabel_CI_NO rdfs:subPropertyOf skos:prefLabel .
+
+vocab:EDAM dct:title "EDAM ontology" ;
+		a skos:ConceptScheme .
+
+
+edam:topic_0003 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0003" ;
+		prop:prefLabel_CI_NO "topic" ;
+		a skos:Concept .
+
+edam:topic_0084 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0084" ;
+		prop:prefLabel_CI_NO "phylogenetics" ;
+		a skos:Concept .
+
+edam:topic_0193 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0193" ;
+		prop:prefLabel_CI_NO "phylogenetic clocks, dating and stratigraphy" ;
+		a skos:Concept .
+
+edam:topic_0191 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0191" ;
+		prop:prefLabel_CI_NO "phylogeny reconstruction" ;
+		a skos:Concept .
+
+edam:topic_0194 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0194" ;
+		prop:prefLabel_CI_NO "phylogenomics" ;
+		a skos:Concept .
+
+edam:topic_0586 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0586" ;
+		prop:prefLabel_CI_NO "proteins" ;
+		a skos:Concept .
+
+edam:topic_0128 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0128" ;
+		prop:prefLabel_CI_NO "protein interactions" ;
+		a skos:Concept .
+
+edam:topic_0147 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0147" ;
+		prop:prefLabel_CI_NO "protein-protein interactions" ;
+		a skos:Concept .
+
+edam:topic_0148 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0148" ;
+		prop:prefLabel_CI_NO "protein-ligand interactions" ;
+		a skos:Concept .
+
+edam:topic_0149 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0149" ;
+		prop:prefLabel_CI_NO "protein-nucleic acid interactions" ;
+		a skos:Concept .
+
+edam:topic_0639 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0639" ;
+		prop:prefLabel_CI_NO "protein sequences" ;
+		a skos:Concept .
+
+edam:topic_0644 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0644" ;
+		prop:prefLabel_CI_NO "proteome" ;
+		a skos:Concept .
+
+edam:topic_0741 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0741" ;
+		prop:prefLabel_CI_NO "protein sequence alignment" ;
+		a skos:Concept .
+
+edam:topic_0748 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0748" ;
+		prop:prefLabel_CI_NO "protein functional sites" ;
+		a skos:Concept .
+
+edam:topic_0123 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0123" ;
+		prop:prefLabel_CI_NO "protein physicochemistry" ;
+		a skos:Concept .
+
+edam:topic_0137 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0137" ;
+		prop:prefLabel_CI_NO "protein hydropathy" ;
+		a skos:Concept .
+
+edam:topic_0130 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0130" ;
+		prop:prefLabel_CI_NO "protein folding, stability and design" ;
+		a skos:Concept .
+
+edam:topic_0150 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0150" ;
+		prop:prefLabel_CI_NO "protein rational design" ;
+		a skos:Concept .
+
+edam:topic_0140 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0140" ;
+		prop:prefLabel_CI_NO "protein targeting and localization" ;
+		a skos:Concept .
+
+edam:topic_0613 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0613" ;
+		prop:prefLabel_CI_NO "peptides and amino acids" ;
+		a skos:Concept .
+
+edam:topic_0767 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0767" ;
+		prop:prefLabel_CI_NO "peptide identification and proteolysis" ;
+		a skos:Concept .
+
+edam:topic_2830 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_2830" ;
+		prop:prefLabel_CI_NO "immune-related proteins and peptides" ;
+		a skos:Concept .
+
+edam:topic_0635 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0635" ;
+		prop:prefLabel_CI_NO "specific protein" ;
+		a skos:Concept .
+
+edam:topic_2232 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_2232" ;
+		prop:prefLabel_CI_NO "lipoproteins" ;
+		a skos:Concept .
+
+edam:topic_0821 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0821" ;
+		prop:prefLabel_CI_NO "enzymes" ;
+		a skos:Concept .
+
+edam:topic_0100 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0100" ;
+		prop:prefLabel_CI_NO "nucleic acid restriction" ;
+		a skos:Concept .
+
+edam:topic_0811 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0811" ;
+		prop:prefLabel_CI_NO "transcription factor and binding site" ;
+		a skos:Concept .
+
+edam:topic_0820 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0820" ;
+		prop:prefLabel_CI_NO "membrane protein" ;
+		a skos:Concept .
+
+edam:topic_0601 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0601" ;
+		prop:prefLabel_CI_NO "protein modifications" ;
+		a skos:Concept .
+
+edam:topic_0751 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0751" ;
+		prop:prefLabel_CI_NO "phosphorylation" ;
+		a skos:Concept .
+
+edam:topic_1775 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_1775" ;
+		prop:prefLabel_CI_NO "protein function" ;
+		a skos:Concept .
+
+edam:topic_2276 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_2276" ;
+		prop:prefLabel_CI_NO "protein function prediction" ;
+		a skos:Concept .
+
+edam:topic_0595 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0595" ;
+		prop:prefLabel_CI_NO "protein classification" ;
+		a skos:Concept .
+
+edam:topic_0736 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0736" ;
+		prop:prefLabel_CI_NO "protein domains" ;
+		a skos:Concept .
+
+edam:topic_0724 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0724" ;
+		prop:prefLabel_CI_NO "protein families" ;
+		a skos:Concept .
+
+edam:topic_2814 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_2814" ;
+		prop:prefLabel_CI_NO "protein structure" ;
+		a skos:Concept .
+
+edam:topic_0694 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0694" ;
+		prop:prefLabel_CI_NO "protein secondary structure" ;
+		a skos:Concept .
+
+edam:topic_0144 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0144" ;
+		prop:prefLabel_CI_NO "protein residue interactions" ;
+		a skos:Concept .
+
+edam:topic_0178 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0178" ;
+		prop:prefLabel_CI_NO "protein secondary structure prediction" ;
+		a skos:Concept .
+
+edam:topic_0698 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0698" ;
+		prop:prefLabel_CI_NO "protein tertiary structure" ;
+		a skos:Concept .
+
+edam:topic_0179 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0179" ;
+		prop:prefLabel_CI_NO "protein tertiary structure prediction" ;
+		a skos:Concept .
+
+edam:topic_0146 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0146" ;
+		prop:prefLabel_CI_NO "protein surfaces" ;
+		a skos:Concept .
+
+edam:topic_0169 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0169" ;
+		prop:prefLabel_CI_NO "tertiary structure comparison" ;
+		a skos:Concept .
+
+edam:topic_0166 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0166" ;
+		prop:prefLabel_CI_NO "protein structural motifs" ;
+		a skos:Concept .
+
+edam:topic_2826 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_2826" ;
+		prop:prefLabel_CI_NO "protein structure alignment" ;
+		a skos:Concept .
+
+edam:topic_0081 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0081" ;
+		prop:prefLabel_CI_NO "structure" ;
+		a skos:Concept .
+
+edam:topic_0097 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0097" ;
+		prop:prefLabel_CI_NO "nucleic acid structure" ;
+		a skos:Concept .
+
+edam:topic_0697 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0697" ;
+		prop:prefLabel_CI_NO "rna structure and alignment" ;
+		a skos:Concept .
+
+edam:topic_0173 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0173" ;
+		prop:prefLabel_CI_NO "nucleic acid structure prediction" ;
+		a skos:Concept .
+
+edam:topic_0152 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0152" ;
+		prop:prefLabel_CI_NO "carbohydrates" ;
+		a skos:Concept .
+
+edam:topic_2226 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_2226" ;
+		prop:prefLabel_CI_NO "structure determination" ;
+		a skos:Concept .
+
+edam:topic_2828 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_2828" ;
+		prop:prefLabel_CI_NO "x-ray crystallography" ;
+		a skos:Concept .
+
+edam:topic_0611 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0611" ;
+		prop:prefLabel_CI_NO "electron microscopy" ;
+		a skos:Concept .
+
+edam:topic_0593 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0593" ;
+		prop:prefLabel_CI_NO "nmr" ;
+		a skos:Concept .
+
+edam:topic_0154 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0154" ;
+		prop:prefLabel_CI_NO "small molecules" ;
+		a skos:Concept .
+
+edam:topic_2661 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_2661" ;
+		prop:prefLabel_CI_NO "toxins and targets" ;
+		a skos:Concept .
+
+edam:topic_0620 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0620" ;
+		prop:prefLabel_CI_NO "drugs and targets" ;
+		a skos:Concept .
+
+edam:topic_0079 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0079" ;
+		prop:prefLabel_CI_NO "metabolites" ;
+		a skos:Concept .
+
+edam:topic_0618 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0618" ;
+		prop:prefLabel_CI_NO "scents" ;
+		a skos:Concept .
+
+edam:topic_0082 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0082" ;
+		prop:prefLabel_CI_NO "structure prediction" ;
+		a skos:Concept .
+
+edam:topic_0172 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0172" ;
+		prop:prefLabel_CI_NO "protein structure prediction" ;
+		a skos:Concept .
+
+edam:topic_0180 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0180" ;
+		prop:prefLabel_CI_NO "protein fold recognition" ;
+		a skos:Concept .
+
+edam:topic_0174 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0174" ;
+		prop:prefLabel_CI_NO "ab initio structure prediction" ;
+		a skos:Concept .
+
+edam:topic_2275 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_2275" ;
+		prop:prefLabel_CI_NO "molecular modelling" ;
+		a skos:Concept .
+
+edam:topic_0136 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0136" ;
+		prop:prefLabel_CI_NO "raw structural data analysis" ;
+		a skos:Concept .
+
+edam:topic_0177 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0177" ;
+		prop:prefLabel_CI_NO "molecular docking" ;
+		a skos:Concept .
+
+edam:topic_0176 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0176" ;
+		prop:prefLabel_CI_NO "molecular dynamics" ;
+		a skos:Concept .
+
+edam:topic_0145 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0145" ;
+		prop:prefLabel_CI_NO "molecular flexibility and motion" ;
+		a skos:Concept .
+
+edam:topic_0175 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0175" ;
+		prop:prefLabel_CI_NO "homology modelling" ;
+		a skos:Concept .
+
+edam:topic_0184 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0184" ;
+		prop:prefLabel_CI_NO "threading" ;
+		a skos:Concept .
+
+edam:topic_0153 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0153" ;
+		prop:prefLabel_CI_NO "lipids" ;
+		a skos:Concept .
+
+edam:topic_1770 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_1770" ;
+		prop:prefLabel_CI_NO "structure comparison" ;
+		a skos:Concept .
+
+edam:topic_2844 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_2844" ;
+		prop:prefLabel_CI_NO "structural clustering" ;
+		a skos:Concept .
+
+edam:topic_0183 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0183" ;
+		prop:prefLabel_CI_NO "structure alignment" ;
+		a skos:Concept .
+
+edam:topic_0167 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0167" ;
+		prop:prefLabel_CI_NO "structural (3d) profiles" ;
+		a skos:Concept .
+
+edam:topic_0121 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0121" ;
+		prop:prefLabel_CI_NO "proteomics" ;
+		a skos:Concept .
+
+edam:topic_0133 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0133" ;
+		prop:prefLabel_CI_NO "two-dimensional gel electrophoresis" ;
+		a skos:Concept .
+
+edam:topic_0135 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0135" ;
+		prop:prefLabel_CI_NO "protein microarrays" ;
+		a skos:Concept .
+
+edam:topic_0134 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0134" ;
+		prop:prefLabel_CI_NO "mass spectrometry" ;
+		a skos:Concept .
+
+edam:topic_0102 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0102" ;
+		prop:prefLabel_CI_NO "sequencing and mapping" ;
+		a skos:Concept .
+
+edam:topic_0196 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0196" ;
+		prop:prefLabel_CI_NO "sequence assembly" ;
+		a skos:Concept .
+
+edam:topic_0195 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0195" ;
+		prop:prefLabel_CI_NO "polymerase chain reaction" ;
+		a skos:Concept .
+
+edam:topic_0632 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0632" ;
+		prop:prefLabel_CI_NO "molecular probes or primers" ;
+		a skos:Concept .
+
+edam:topic_0796 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0796" ;
+		prop:prefLabel_CI_NO "genetic mapping and linkage" ;
+		a skos:Concept .
+
+edam:topic_2842 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_2842" ;
+		prop:prefLabel_CI_NO "high-throughput sequencing" ;
+		a skos:Concept .
+
+edam:topic_0602 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0602" ;
+		prop:prefLabel_CI_NO "pathways, networks and models" ;
+		a skos:Concept .
+
+edam:topic_0771 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0771" ;
+		prop:prefLabel_CI_NO "biological models" ;
+		a skos:Concept .
+
+edam:topic_2846 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_2846" ;
+		prop:prefLabel_CI_NO "gene regulatory networks" ;
+		a skos:Concept .
+
+edam:topic_0754 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0754" ;
+		prop:prefLabel_CI_NO "signaling pathways" ;
+		a skos:Concept .
+
+edam:topic_0753 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0753" ;
+		prop:prefLabel_CI_NO "metabolic pathways" ;
+		a skos:Concept .
+
+edam:topic_0625 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0625" ;
+		prop:prefLabel_CI_NO "genotype and phenotype" ;
+		a skos:Concept .
+
+edam:topic_0199 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0199" ;
+		prop:prefLabel_CI_NO "mutation and polymorphism" ;
+		a skos:Concept .
+
+edam:topic_2277 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_2277" ;
+		prop:prefLabel_CI_NO "snps" ;
+		a skos:Concept .
+
+edam:topic_0634 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0634" ;
+		prop:prefLabel_CI_NO "disease" ;
+		a skos:Concept .
+
+edam:topic_2640 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_2640" ;
+		prop:prefLabel_CI_NO "cancer" ;
+		a skos:Concept .
+
+edam:topic_0803 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0803" ;
+		prop:prefLabel_CI_NO "human disease" ;
+		a skos:Concept .
+
+edam:topic_0607 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0607" ;
+		prop:prefLabel_CI_NO "laboratory resources" ;
+		a skos:Concept .
+
+edam:topic_0077 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0077" ;
+		prop:prefLabel_CI_NO "nucleic acids" ;
+		a skos:Concept .
+
+edam:topic_0653 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0653" ;
+		prop:prefLabel_CI_NO "rna" ;
+		a skos:Concept .
+
+edam:topic_0655 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0655" ;
+		prop:prefLabel_CI_NO "mrna, est or cdna" ;
+		a skos:Concept .
+
+edam:topic_0114 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0114" ;
+		prop:prefLabel_CI_NO "rna splicing" ;
+		a skos:Concept .
+
+edam:topic_0659 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0659" ;
+		prop:prefLabel_CI_NO "functional rna" ;
+		a skos:Concept .
+
+edam:topic_0660 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0660" ;
+		prop:prefLabel_CI_NO "rrna" ;
+		a skos:Concept .
+
+edam:topic_0661 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0661" ;
+		prop:prefLabel_CI_NO "mirna" ;
+		a skos:Concept .
+
+edam:topic_0662 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0662" ;
+		prop:prefLabel_CI_NO "sirna" ;
+		a skos:Concept .
+
+edam:topic_0119 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0119" ;
+		prop:prefLabel_CI_NO "pirna" ;
+		a skos:Concept .
+
+edam:topic_0663 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0663" ;
+		prop:prefLabel_CI_NO "trna" ;
+		a skos:Concept .
+
+edam:topic_0664 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0664" ;
+		prop:prefLabel_CI_NO "snrna" ;
+		a skos:Concept .
+
+edam:topic_0665 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0665" ;
+		prop:prefLabel_CI_NO "snorna" ;
+		a skos:Concept .
+
+edam:topic_0654 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0654" ;
+		prop:prefLabel_CI_NO "dna" ;
+		a skos:Concept .
+
+edam:topic_0666 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0666" ;
+		prop:prefLabel_CI_NO "rdna" ;
+		a skos:Concept .
+
+edam:topic_2816 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_2816" ;
+		prop:prefLabel_CI_NO "genes" ;
+		a skos:Concept .
+
+edam:topic_0109 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0109" ;
+		prop:prefLabel_CI_NO "gene finding" ;
+		a skos:Concept .
+
+edam:topic_0197 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0197" ;
+		prop:prefLabel_CI_NO "gene expression and regulation" ;
+		a skos:Concept .
+
+edam:topic_0203 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0203" ;
+		prop:prefLabel_CI_NO "gene expression profiling" ;
+		a skos:Concept .
+
+edam:topic_0110 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0110" ;
+		prop:prefLabel_CI_NO "transcription" ;
+		a skos:Concept .
+
+edam:topic_0111 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0111" ;
+		prop:prefLabel_CI_NO "promoters" ;
+		a skos:Concept .
+
+edam:topic_0108 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0108" ;
+		prop:prefLabel_CI_NO "translation" ;
+		a skos:Concept .
+
+edam:topic_0623 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0623" ;
+		prop:prefLabel_CI_NO "gene family or system" ;
+		a skos:Concept .
+
+edam:topic_0630 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0630" ;
+		prop:prefLabel_CI_NO "gene structure" ;
+		a skos:Concept .
+
+edam:topic_0643 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0643" ;
+		prop:prefLabel_CI_NO "genomes" ;
+		a skos:Concept .
+
+edam:topic_0624 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0624" ;
+		prop:prefLabel_CI_NO "chromosomes" ;
+		a skos:Concept .
+
+edam:topic_0798 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0798" ;
+		prop:prefLabel_CI_NO "mobile genetic elements" ;
+		a skos:Concept .
+
+edam:topic_0640 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0640" ;
+		prop:prefLabel_CI_NO "nucleic acid sequences" ;
+		a skos:Concept .
+
+edam:topic_0740 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0740" ;
+		prop:prefLabel_CI_NO "nucleic acid sequence alignment" ;
+		a skos:Concept .
+
+edam:topic_0107 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0107" ;
+		prop:prefLabel_CI_NO "codon usage" ;
+		a skos:Concept .
+
+edam:topic_0747 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0747" ;
+		prop:prefLabel_CI_NO "nucleic acid functional sites" ;
+		a skos:Concept .
+
+edam:topic_0094 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0094" ;
+		prop:prefLabel_CI_NO "nucleic acid physicochemistry" ;
+		a skos:Concept .
+
+edam:topic_0104 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0104" ;
+		prop:prefLabel_CI_NO "nucleic acid denaturation" ;
+		a skos:Concept .
+
+edam:topic_0722 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0722" ;
+		prop:prefLabel_CI_NO "nucleic acid classification" ;
+		a skos:Concept .
+
+edam:topic_0621 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0621" ;
+		prop:prefLabel_CI_NO "organism" ;
+		a skos:Concept .
+
+edam:topic_1811 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_1811" ;
+		prop:prefLabel_CI_NO "prokaryote" ;
+		a skos:Concept .
+
+edam:topic_0781 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0781" ;
+		prop:prefLabel_CI_NO "virus" ;
+		a skos:Concept .
+
+edam:topic_0783 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0783" ;
+		prop:prefLabel_CI_NO "pathogen" ;
+		a skos:Concept .
+
+edam:topic_2818 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_2818" ;
+		prop:prefLabel_CI_NO "eukaryote" ;
+		a skos:Concept .
+
+edam:topic_0782 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0782" ;
+		prop:prefLabel_CI_NO "fungal" ;
+		a skos:Concept .
+
+edam:topic_2817 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_2817" ;
+		prop:prefLabel_CI_NO "yeast" ;
+		a skos:Concept .
+
+edam:topic_0780 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0780" ;
+		prop:prefLabel_CI_NO "plant" ;
+		a skos:Concept .
+
+edam:topic_2819 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_2819" ;
+		prop:prefLabel_CI_NO "invertebrate" ;
+		a skos:Concept .
+
+edam:topic_0211 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0211" ;
+		prop:prefLabel_CI_NO "fly" ;
+		a skos:Concept .
+
+edam:topic_0215 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0215" ;
+		prop:prefLabel_CI_NO "worm" ;
+		a skos:Concept .
+
+edam:topic_2820 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_2820" ;
+		prop:prefLabel_CI_NO "vertebrate" ;
+		a skos:Concept .
+
+edam:topic_0210 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0210" ;
+		prop:prefLabel_CI_NO "fish" ;
+		a skos:Concept .
+
+edam:topic_2815 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_2815" ;
+		prop:prefLabel_CI_NO "human" ;
+		a skos:Concept .
+
+edam:topic_0213 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0213" ;
+		prop:prefLabel_CI_NO "mouse or rat" ;
+		a skos:Concept .
+
+edam:topic_2821 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_2821" ;
+		prop:prefLabel_CI_NO "unicellular eukaryote" ;
+		a skos:Concept .
+
+edam:topic_0091 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0091" ;
+		prop:prefLabel_CI_NO "data handling" ;
+		a skos:Concept .
+
+edam:topic_0090 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0090" ;
+		prop:prefLabel_CI_NO "data retrieval" ;
+		a skos:Concept .
+
+edam:topic_0769 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0769" ;
+		prop:prefLabel_CI_NO "workflows" ;
+		a skos:Concept .
+
+edam:topic_0092 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0092" ;
+		prop:prefLabel_CI_NO "data rendering and visualisation" ;
+		a skos:Concept .
+
+edam:topic_0770 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0770" ;
+		prop:prefLabel_CI_NO "data types and objects" ;
+		a skos:Concept .
+
+edam:topic_0220 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0220" ;
+		prop:prefLabel_CI_NO "data file processing" ;
+		a skos:Concept .
+
+edam:topic_2230 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_2230" ;
+		prop:prefLabel_CI_NO "classification" ;
+		a skos:Concept .
+
+edam:topic_0637 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0637" ;
+		prop:prefLabel_CI_NO "taxonomy" ;
+		a skos:Concept .
+
+edam:topic_0164 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0164" ;
+		prop:prefLabel_CI_NO "sequence clustering" ;
+		a skos:Concept .
+
+edam:topic_2841 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_2841" ;
+		prop:prefLabel_CI_NO "informatics" ;
+		a skos:Concept .
+
+edam:topic_2229 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_2229" ;
+		prop:prefLabel_CI_NO "cell biology informatics" ;
+		a skos:Concept .
+
+edam:topic_0616 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0616" ;
+		prop:prefLabel_CI_NO "organelles" ;
+		a skos:Concept .
+
+edam:topic_0779 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0779" ;
+		prop:prefLabel_CI_NO "mitochondria" ;
+		a skos:Concept .
+
+edam:topic_0617 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0617" ;
+		prop:prefLabel_CI_NO "ribosomes" ;
+		a skos:Concept .
+
+edam:topic_0612 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0612" ;
+		prop:prefLabel_CI_NO "cell cycle and development" ;
+		a skos:Concept .
+
+edam:topic_0608 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0608" ;
+		prop:prefLabel_CI_NO "cell lines and culture" ;
+		a skos:Concept .
+
+edam:topic_0610 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0610" ;
+		prop:prefLabel_CI_NO "ecoinformatics" ;
+		a skos:Concept .
+
+edam:topic_2258 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_2258" ;
+		prop:prefLabel_CI_NO "chemoinformatics" ;
+		a skos:Concept .
+
+edam:topic_0804 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0804" ;
+		prop:prefLabel_CI_NO "immunoinformatics" ;
+		a skos:Concept .
+
+edam:topic_2840 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_2840" ;
+		prop:prefLabel_CI_NO "toxicoinformatics" ;
+		a skos:Concept .
+
+edam:topic_0202 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0202" ;
+		prop:prefLabel_CI_NO "pharmacoinformatics" ;
+		a skos:Concept .
+
+edam:topic_0209 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0209" ;
+		prop:prefLabel_CI_NO "drug design" ;
+		a skos:Concept .
+
+edam:topic_0208 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0208" ;
+		prop:prefLabel_CI_NO "pharmacogenomics" ;
+		a skos:Concept .
+
+edam:topic_0080 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0080" ;
+		prop:prefLabel_CI_NO "sequence" ;
+		a skos:Concept .
+
+edam:topic_0188 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0188" ;
+		prop:prefLabel_CI_NO "sequence profiles and hmms" ;
+		a skos:Concept .
+
+edam:topic_0159 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0159" ;
+		prop:prefLabel_CI_NO "sequence comparison" ;
+		a skos:Concept .
+
+edam:topic_0182 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0182" ;
+		prop:prefLabel_CI_NO "sequence alignment" ;
+		a skos:Concept .
+
+edam:topic_0189 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0189" ;
+		prop:prefLabel_CI_NO "structure-based sequence alignment" ;
+		a skos:Concept .
+
+edam:topic_0158 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0158" ;
+		prop:prefLabel_CI_NO "sequence motifs" ;
+		a skos:Concept .
+
+edam:topic_0160 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0160" ;
+		prop:prefLabel_CI_NO "sequence features" ;
+		a skos:Concept .
+
+edam:topic_0600 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0600" ;
+		prop:prefLabel_CI_NO "functional sites" ;
+		a skos:Concept .
+
+edam:topic_0157 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0157" ;
+		prop:prefLabel_CI_NO "sequence composition" ;
+		a skos:Concept .
+
+edam:topic_0641 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0641" ;
+		prop:prefLabel_CI_NO "repeat sequence" ;
+		a skos:Concept .
+
+edam:topic_0642 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0642" ;
+		prop:prefLabel_CI_NO "low complexity sequence" ;
+		a skos:Concept .
+
+edam:topic_0088 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0088" ;
+		prop:prefLabel_CI_NO "literature and documentation" ;
+		a skos:Concept .
+
+edam:topic_0218 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0218" ;
+		prop:prefLabel_CI_NO "text mining" ;
+		a skos:Concept .
+
+edam:topic_2829 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_2829" ;
+		prop:prefLabel_CI_NO "ontologies and nomenclature" ;
+		a skos:Concept .
+
+edam:topic_2811 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_2811" ;
+		prop:prefLabel_CI_NO "nomenclature" ;
+		a skos:Concept .
+
+edam:topic_0089 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0089" ;
+		prop:prefLabel_CI_NO "ontologies" ;
+		a skos:Concept .
+
+edam:topic_0219 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0219" ;
+		prop:prefLabel_CI_NO "annotation" ;
+		a skos:Concept .
+
+edam:topic_0622 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0622" ;
+		prop:prefLabel_CI_NO "genomics" ;
+		a skos:Concept .
+
+edam:topic_0797 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0797" ;
+		prop:prefLabel_CI_NO "comparative genomics" ;
+		a skos:Concept .
+
+edam:topic_0200 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0200" ;
+		prop:prefLabel_CI_NO "microarrays" ;
+		a skos:Concept .
+
+edam:topic_0206 skos:inScheme vocab:EDAM ;
+		rdfs:label "EDAM:topic_0206" ;
+		prop:prefLabel_CI_NO "dna microarrays" ;
+		a skos:Concept .
+
