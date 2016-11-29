@@ -68,9 +68,16 @@ sh runFragmentation_severalOntolgies.sh "<dirInAnnot>" "<dirInLinks>" "<minSizeS
 # e.g. sh runFragmentation_severalOntolgies.sh "../Data/WF_myExperiment/NewAnnot" "../Data/WF_myExperiment/NotRedundantAnnot" 2 3 
 
 # 2.2.- Clustering subgraphs
-# It calls 52 times (13 ontologies X 2 clustering algorithms X 4 K selection methods) the script retrieveAndClusterSubgraphs_perOntology_pruebaSML_partClusteringAndStatistics_severalKmethods.pl
+# It calls 52 times (13 ontologies X 2 clustering algorithms X 4 K selection methods) the script retrieveAndClusterSubgraphs_perOntology_partClusteringAndStatistics_severalKmethods.pl
 sh runClusteringExperiments_clusteringSeveralKMethods.sh "<dirInAnnot>" "<dirInLinks>" "<minSizeSubgraph>" "<maxSizeSubgraph>"
 # e.g. sh runClusteringExperiments_clusteringSeveralKMethods.sh "../Data/WF_myExperiment/NewAnnot" "../Data/WF_myExperiment/NotRedundantAnnot" 2 3
 ```
 
 The input for the automatic annotation step are workflows in Taverna 1 (.xml) or 2 (.sculf) format, in principle, from myExperiment [resource number 1, from the previous section]. The output of this first step are workflows with semantic annotations in OPMW format, corresponding to the input of the second step: fragmentation and clustering based on Semantic Similarity [resource number 2]. Finally, the output of the second step are the different subworkflows or clustered workflow fragments [resource number 3].
+
+
+**Citations:**  
+Identifying Bioinformatics SubWorkflows with SemSubWf: Clustering based on Semantic Similarity  
+Beatriz García-Jiménez and Mark D Wilkinson  
+*(Under review)*
+
