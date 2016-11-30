@@ -1,18 +1,18 @@
-# SemSubWf
+# SCOFF
 ==================================
-SemSubWf (Semantic SubWorkflows) automatically annotates workflows with semantic terms and returns subworkflows - clusters of semantically similar bioinformatics workflow fragments to promote workflow repair and construction.
+SCOFF (Semantic Clustering Of Functional Fragments) automatically annotates workflows with semantic terms and returns subworkflows - clusters of semantically similar bioinformatics workflow fragments to promote workflow repair and construction.
 
-This site describes our output result structure, includes the source code of the SemSubWf system and briefly explains how to use it.
+This site describes our output result structure, includes the source code of the SCOFF system and briefly explains how to use it.
 
 ## Output results structure ##
-This section describes the different types of output files from our analysis of myExperiment workflows using SemSubWf.  
+This section describes the different types of output files from our analysis of myExperiment workflows using SCOFF.  
 
 The output resources are distributed from the following URL, and folder structure(http://biordf.org/myExperiment_Annotations/) :
  1. **abstract_workflows/**:  Partially abstracted workflows (i.e. after removing non-biologically-meaningful steps) in
 Taverna formats. They are the input of the automatic annotation step.
  2. **OPMW/**:  Semantic annotations of all the services within every bioinformatics-oriented myExperiment workflow (in the standard OPMW format).  
  These RDF output files include an instance of the `opmw:WorflowTemplateProcess` model for each non-shim available service of each annotated bioinformatics workflow (when each annotation in represented as an `<rdf:type rdf:resource=URI/>` property. Using these RDF file, our annotations are available and could be easily integrated in other systems requiring structured annotations of bioinformatic services.
- 3. **SemSubWf/**: 
+ 3. **SCOFF/**: 
   * **ClusteringSubgraphsBAO/** 
       * **KbestSilh_AGNES/**
           * **Cluster1/**  
@@ -32,7 +32,7 @@ Multiple sets of workflow fragments grouped by semantic similarity in their anno
 
 
 ## Basic Usage ##
-A brief description and instructions for how and in which order to run the different SemSubWf scripts. More details are available in the code comments of each script.
+A brief description and instructions for how and in which order to run the different SCOFF scripts. More details are available in the code comments of each script.
 
 ### Step 1: Automatic annotation of bioinformatics workflows with biomedical ontologies ###
  
@@ -77,7 +77,7 @@ The input for the automatic annotation step are workflows in Taverna 1 (.xml) or
 
 
 **Citations:**  
-Identifying Bioinformatics SubWorkflows with SemSubWf: Clustering based on Semantic Similarity  
+Identifying Bioinformatics Subworkflows with SCOFF: Semantic Clustering Of Functional Fragments
 Beatriz García-Jiménez and Mark D Wilkinson  
 *(Under review)*
 
