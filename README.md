@@ -81,3 +81,6 @@ Identifying Bioinformatics Subworkflows with SCOFF: Semantic Clustering Of Funct
 Beatriz García-Jiménez and Mark D Wilkinson  
 *(Under review)*
 
+
+**Contact:** 
+http://www.wilkinsonlab.info
