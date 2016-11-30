@@ -73,7 +73,7 @@ sh runClusteringExperiments_clusteringSeveralKMethods.sh "<dirInAnnot>" "<dirInL
 # e.g. sh runClusteringExperiments_clusteringSeveralKMethods.sh "../Data/WF_myExperiment/NewAnnot" "../Data/WF_myExperiment/NotRedundantAnnot" 2 3
 ```
 
-The input for the automatic annotation step are workflows in Taverna 1 (.xml) or 2 (.scufl) format, in principle, from myExperiment [resource number 1, from the previous section]. The output of this first step are workflows with semantic annotations in OPMW format, corresponding to the input of the second step: fragmentation and clustering based on Semantic Similarity [resource number 2]. Finally, the output of the second step are the different subworkflows or clustered workflow fragments [resource number 3].
+The input for the automatic annotation step are workflows in Taverna 1 (.xml) or 2 (.t2flow) format, in principle, from myExperiment [resource number 1, from the previous section]. The output of this first step are workflows with semantic annotations in OPMW format, corresponding to the input of the second step: fragmentation and clustering based on Semantic Similarity [resource number 2]. Finally, the output of the second step are the different subworkflows or clustered workflow fragments [resource number 3].
 
 
 **Citations:**  
