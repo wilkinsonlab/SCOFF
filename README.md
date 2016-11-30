@@ -1,13 +1,13 @@
 # SemSubWf
 ==================================
-SemSubWf (from Semantic SubWorkflows) automatically annotate workflows with semantics terms and returns subworkflows, which are clusters of semantically similar bioinformatics workflow fragments to promote workflow repair and construction.
+SemSubWf (Semantic SubWorkflows) automatically annotates workflows with semantic terms and returns subworkflows - clusters of semantically similar bioinformatics workflow fragments to promote workflow repair and construction.
 
-This site describes our output result structure, includes the source code of the SemSubWf system and briefly explain how to use it.
+This site describes our output result structure, includes the source code of the SemSubWf system and briefly explains how to use it.
 
 ## Output results structure ##
-This section describes the different type of output files from our analysis of myExperiment workflows with SemSubWf.  
+This section describes the different types of output files from our analysis of myExperiment workflows using SemSubWf.  
 
-The resources we make available are distributed in the following structure of the result directory (http://biordf.org/myExperiment_Annotations/) :
+The output resources are distributed from the following URL, and folder structure(http://biordf.org/myExperiment_Annotations/) :
  1. **abstract_workflows/**:  Partially abstracted workflows (i.e. after removing non-biologically-meaningful steps) in
 Taverna formats. They are the input of the automatic annotation step.
  2. **OPMW/**:  Semantic annotations of all the services within every bioinformatics-oriented myExperiment workflow (in the standard OPMW format).  
@@ -27,12 +27,12 @@ Taverna formats. They are the input of the automatic annotation step.
   ...  
   * **ClusteringSubgraphsSWO/**
  
-Multiple sets of workflow fragments grouped by semantic similarity in their annotations, according to 13 different ontologies and structure vocabularies (BAO, BRO, EDAM, EFO, IAO, MeSH, MS, NCIT, NIFSTD, OBI, OBIWS, SIO and SWO) from BioPortal and 4 clustering criteria (`KbestSilh_AGNES, KbestSilh_PAM, KruleThumb_AGNES and KruleThumb_PAM`). These subdirectories include searchable text summary files (`annotations_statistics_<ontID>.txt` and `cluster_statistics.txt`) and visual representations of the clustered workflow fragments in .svg format (`wf_myExperiment_<ontID>_<wfID>.<fragmentID>.svg`) to make possible to easily find workflow fragments related with desired term/s, to design a new workflow through fragments or repair a broken workflow.
+Multiple sets of workflow fragments grouped by semantic similarity in their annotations, based on 13 different ontologies and structure vocabularies (BAO, BRO, EDAM, EFO, IAO, MeSH, MS, NCIT, NIFSTD, OBI, OBIWS, SIO and SWO) from BioPortal and 4 clustering criteria (`KbestSilh_AGNES, KbestSilh_PAM, KruleThumb_AGNES and KruleThumb_PAM`). These subdirectories include searchable text summary files (`annotations_statistics_<ontID>.txt` and `cluster_statistics.txt`) and visual representations of the clustered workflow fragments in .svg format (`wf_myExperiment_<ontID>_<wfID>.<fragmentID>.svg`) to allow simple seearch for fragments related to desired term/s, either for new workflow creation or to repair a broken workflow.
 
 
 
 ## Basic Usage ##
-A briefly description and instructions about how and in which order to run the different SemSubWf scripts to apply the different analysis SemSubWf contributes. More details are available in the code comments of each script.
+A brief description and instructions for how and in which order to run the different SemSubWf scripts. More details are available in the code comments of each script.
 
 ### Step 1: Automatic annotation of bioinformatics workflows with biomedical ontologies ###
  
@@ -73,7 +73,7 @@ sh runClusteringExperiments_clusteringSeveralKMethods.sh "<dirInAnnot>" "<dirInL
 # e.g. sh runClusteringExperiments_clusteringSeveralKMethods.sh "../Data/WF_myExperiment/NewAnnot" "../Data/WF_myExperiment/NotRedundantAnnot" 2 3
 ```
 
-The input for the automatic annotation step are workflows in Taverna 1 (.xml) or 2 (.sculf) format, in principle, from myExperiment [resource number 1, from the previous section]. The output of this first step are workflows with semantic annotations in OPMW format, corresponding to the input of the second step: fragmentation and clustering based on Semantic Similarity [resource number 2]. Finally, the output of the second step are the different subworkflows or clustered workflow fragments [resource number 3].
+The input for the automatic annotation step are workflows in Taverna 1 (.xml) or 2 (.scufl) format, in principle, from myExperiment [resource number 1, from the previous section]. The output of this first step are workflows with semantic annotations in OPMW format, corresponding to the input of the second step: fragmentation and clustering based on Semantic Similarity [resource number 2]. Finally, the output of the second step are the different subworkflows or clustered workflow fragments [resource number 3].
 
 
 **Citations:**  
