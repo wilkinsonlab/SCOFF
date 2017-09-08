@@ -1,5 +1,5 @@
 # SCOFF
-==================================
+
 SCOFF (Semantic Clustering Of Functional Fragments) automatically annotates workflows with semantic terms and returns subworkflows - clusters of semantically similar bioinformatics workflow fragments to promote workflow repair and construction.
 
 This site describes our output result structure, includes the source code of the SCOFF system and briefly explains how to use it.
