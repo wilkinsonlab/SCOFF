@@ -7,7 +7,7 @@ This site describes our output result structure, includes the source code of the
 ## Output results structure ##
 This section describes the different types of output files from our analysis of myExperiment workflows using SCOFF.  
 
-The output resources are distributed from the following URL, and folder structure(http://biordf.org/myExperiment_Annotations/) :
+The output resources are distributed from the following URL, and folder structure(http://www.wilkinsonlab.info/myExperiment_Annotations/) :
  1. **abstract_workflows/**:  Partially abstracted workflows (i.e. after removing non-biologically-meaningful steps) in
 Taverna formats. They are the input of the automatic annotation step.
  2. **OPMW/**:  Semantic annotations of all the services within every bioinformatics-oriented myExperiment workflow (in the standard OPMW format).  
